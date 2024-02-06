@@ -1,5 +1,6 @@
 .header {
     text-align: center; 
+    position: relative;
 }
 
 
@@ -19,6 +20,8 @@ body {
     background-color: white;
     border: 3px solid black;
     box-shadow: 5px 5px 5px;
+    z-index: 2;
+    position: absolute;
 }
 
 .modal h1 {
