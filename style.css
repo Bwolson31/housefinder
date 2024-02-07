@@ -1,3 +1,13 @@
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%; /* Extend to the full width */
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Position at the top */
+    left: 0; /* Align to the left */
+}
 /* Reset default margin and padding */
 * {
     margin: 0;
@@ -7,6 +17,9 @@
 
 /* Set up body styles */
 body {
+    align-items: center; 
+    justify-content: center; 
+    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f5f5f5; /* Set background color */
     color: #333; /* Set text color */
@@ -117,18 +130,34 @@ body {
 
 /* Style for the boxes in the top row */
 .box {
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 250px;
     background-color: #ccc;
     margin-bottom: 20px;
+    margin-right: 20px; /* Add margin to create space between boxes */
+    border-radius: 8px; /* Round the edges of the boxes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.box:hover {
+    background-color: #ddd; /* Grey background on hover */
 }
 
 /* Style for the maps in the bottom row */
 .map {
-    width: 300px;
-    height: 200px;
+    width: 1000px;
+    height: 800px;
     background-color: #ddd;
     margin-bottom: 20px;
+    border-radius: 8px; /* Round the edges of the maps */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text horizontally */
 }
 
 /* Footer styles */
@@ -137,5 +166,14 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+<<<<<<< HEAD
     margin-top: auto; /* Push footer to the bottom */
 }
+=======
+    width: 100%; /* Extend to the full width */
+    position: fixed; /* Fixed positioning */
+    bottom: 0; /* Position at the bottom */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+}
+>>>>>>> f09230c2d540e09c706210bb8cad1b435d7c6428
