@@ -16,16 +16,6 @@ document.addEventListener('DOMContentLoaded', function (){
     let topRow = document.querySelector('.top-row');
     let bottomRow = document.querySelector('.bottom-row');
     let cities = ['Minneapolis', 'New York', 'Los Angeles', 'Chicago', 'Houston']; // Example cities
-    cities.forEach(city => {
-        const map = document.createElement('div');
-        map.classList.add('map');
-        map.textContent = `Map of houses in ${city}`;
-        bottomRow.appendChild(map);
-    });
-});
-
-$('#search-btn').on('click', function ()
-{
     
     for (let i = 0; i < cities.length; i++) {
         const box = document.createElement('div');
@@ -37,9 +27,6 @@ $('#search-btn').on('click', function ()
                 bottomRow.removeChild(bottomRow.firstChild);
             }
 
-<<<<<<< HEAD
-
-=======
             // Create and append the map for the selected city
             let map = document.createElement('div');
             map.classList.add('map');
@@ -49,4 +36,3 @@ $('#search-btn').on('click', function ()
         topRow.appendChild(box);
     }
 });
->>>>>>> b26e191 (city boxes and map style changes)
