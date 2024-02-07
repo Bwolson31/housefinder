@@ -18,3 +18,4 @@ $('#search-btn').on('click', function ()
 })
 
 
+var googleMapsApikey = AIzaSyCER0esM0NjKoY4gwzgkJV2YDXFp3P3mls;

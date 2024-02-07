@@ -1,33 +1,18 @@
-<<<<<<< HEAD
-.header {
-    text-align: center;
-=======
 /* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
->>>>>>> ceb70d0dc1462562b0ad6b3f0e9f1f5f58565f25
 }
 
 /* Set up body styles */
 body {
-<<<<<<< HEAD
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    height: 100vh;
-    margin: 0;
-    flex-direction: column; 
-
-=======
     font-family: Arial, sans-serif;
     background-color: #f5f5f5; /* Set background color */
     color: #333; /* Set text color */
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Arrange children vertically */
     min-height: 100vh; /* Ensure full viewport height */
->>>>>>> ceb70d0dc1462562b0ad6b3f0e9f1f5f58565f25
 }
 
 /* Header styles */
