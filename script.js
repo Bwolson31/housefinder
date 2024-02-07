@@ -10,12 +10,33 @@ document.addEventListener('DOMContentLoaded', function (){
 {
     modal.style.display = 'none';
 }    });
+
+    // Code to populate the top row with boxes
+    let topRow = document.querySelector('.top-row');
+    for (let i = 0; i < 5; i++) {
+        const box = document.createElement('div');
+        box.classList.add('box');
+        box.textContent = `Box ${i + 1}`;
+        topRow.appendChild(box);
+    }
+
+    // Code to populate the bottom row with maps
+    let bottomRow = document.querySelector('.bottom-row');
+    let cities = ['Minneapolis', 'New York', 'Los Angeles', 'Chicago', 'Houston']; // Example cities
+    cities.forEach(city => {
+        const map = document.createElement('div');
+        map.classList.add('map');
+        map.textContent = `Map of houses in ${city}`;
+        bottomRow.appendChild(map);
+    });
 });
 
+<<<<<<< HEAD
+=======
 $('#search-btn').on('click', function ()
 {
     
 })
 
 
-var googleMapsApikey = AIzaSyCER0esM0NjKoY4gwzgkJV2YDXFp3P3mls;
+>>>>>>> cb9ef1aecf45b203f5f6da25b89cfed22b09dbc8
