@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function (){
     let topRow = document.querySelector('.top-row');
     let bottomRow = document.querySelector('.bottom-row');
     let cities = ['Minneapolis', 'New York', 'Los Angeles', 'Chicago', 'Houston']; // Example cities
-<<<<<<< HEAD
     cities.forEach(city => {
         const map = document.createElement('div');
         map.classList.add('map');
@@ -27,8 +26,6 @@ document.addEventListener('DOMContentLoaded', function (){
 
 $('#search-btn').on('click', function ()
 {
-=======
->>>>>>> b26e191 (city boxes and map style changes)
     
     for (let i = 0; i < cities.length; i++) {
         const box = document.createElement('div');
