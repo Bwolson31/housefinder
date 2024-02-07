@@ -31,3 +31,12 @@ document.addEventListener('DOMContentLoaded', function (){
     });
 });
 
+<<<<<<< HEAD
+=======
+$('#search-btn').on('click', function ()
+{
+    
+})
+
+
+>>>>>>> cb9ef1aecf45b203f5f6da25b89cfed22b09dbc8
