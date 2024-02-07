@@ -166,9 +166,14 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+<<<<<<< HEAD
+    margin-top: auto; /* Push footer to the bottom */
+}
+=======
     width: 100%; /* Extend to the full width */
     position: fixed; /* Fixed positioning */
     bottom: 0; /* Position at the bottom */
     left: 0; /* Align to the left */
     right: 0; /* Align to the right */
 }
+>>>>>>> f09230c2d540e09c706210bb8cad1b435d7c6428
