@@ -1,23 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
 </head>
 <body>
-    <div id='myModal' class='modal'>
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <div id="search-area">
-            <h1>Search for Cities (up to 5):</h1>
-            <input name="city" type="text" placeholder="Minneapolis" class="city-input">
-            <button type="submit" id="search-btn" class="btn">Search</button>
+    <div class="header">
+        <h1>HouseFinder</h1>
+    </div>
+    <div id="cityModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="search-area">
+                <h1>Search for Cities (up to 5):</h1>
+                <input name="city" type="text" placeholder="Minneapolis" id="city-input">
+                <button type="submit" id="search-btn" class="btn">Enter City</button>
+                <button type="submit" id="search-btn2" class="btn">Execute Search</button>
+                <ul class="cityList">
+                  <li></li>
+                </ul>
+            </div>
         </div>
     </div>
+    <div class="container">
+        <div class="search-history">
+          
+            <!-- Search history will be displayed here -->
+       
+            <h2>Search History</h2>
+            <ul id="history-list">     
+              <li class="storedCityList"></lin>
+                <!-- History items will be populated dynamically -->
+            </ul>
+        </div>
+        <div class="content">
+            <div class="top-row">
+                <!-- This will be populated dynamically with up to 5 boxes -->
+            </div>
+            <div class="bottom-row">
+                <!-- This will be populated dynamically with maps of houses in each city -->
+         </div>
+        </div>
+    
     </div>
-
-    <script src="script.js"></script>    
+     
+    <footer>
+        &copy; 2024 HouseFinder
+    </footer>
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
