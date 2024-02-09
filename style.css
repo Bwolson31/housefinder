@@ -199,6 +199,7 @@
     justify-content: center;
     align-items: center;
     text-align: center; /* Center text horizontally */
+
   }
   
   /* Footer styles */
@@ -213,3 +214,5 @@
       left: 0; /* Align to the left */
       right: 0; /* Align to the right */
   }
+
+
