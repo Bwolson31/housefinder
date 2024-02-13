@@ -27,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function (){
                 bottomRow.removeChild(bottomRow.firstChild);
             }
 
-
 // zillow api code
 const zillowAPIKey = 'd57186efc6933c13c8105a89d6cbaddd';
 // link for the zillow api. 
@@ -37,8 +36,6 @@ let URL = 'https://api.bridgedataoutput.com/api/v2/test/listings?access_token=' 
 
 
 let respone = fetch(URL)
-=======
-
 console.log(respone)
             // Create and append the map for the selected city
             let map = document.createElement('div');
