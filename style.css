@@ -49,7 +49,6 @@
     align-items: center; /* Center children horizontally */
     justify-content: center; /* Center children vertically */
   }
-
   /* Modal styles */
   .modal {
     display: none;
